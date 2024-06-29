@@ -21,12 +21,12 @@ To get started with this repository, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/workingwithali/LeetCode-Solutions.git
+    git clone https://github.com/workingwithali/leetcode.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd LeetCode-Solutions
+    cd leetcode
     ```
 
 3. Browse through the solutions for various problems. Each solution is in a separate file named after the problem.
