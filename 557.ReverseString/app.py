@@ -8,9 +8,10 @@ class solution:
                 while l < tr:
                     s[l], s[tr] = s[tr], s[l]
                     l +=1
-                    r -=1
+                    tr -=1
                 l = r +1
         return ''.join(s)
 solution = solution()
 s = "ali is good boy"
-result =
+result = solution.resverse(s)
+print(result)
