@@ -6,8 +6,7 @@ class Solution:
         index = 2
         
         for i in range(2, len(nums)):
-            print(nums[i])
-            print(nums[index])
+            
             if nums[i] != nums[index - 2]:
                 nums[index] = nums[i]
                 index += 1
