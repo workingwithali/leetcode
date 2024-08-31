@@ -2,13 +2,13 @@ class Solution:
     def removeDuplicates(self, nums):
         if len(nums) <= 2:
             return len(nums)        
-        index = 2        
-        for i in range(2, len(nums)):
+        l = 2        
+        for r in range(2, len(nums)):
             
-            if nums[i] != nums[index - 2]:
-                nums[index] = nums[i]
-                index += 1                
-        return index
+            if nums[r] != nums[l - 2]:
+                nums[l] = nums[r]
+                l += 1                
+        return l
 solution = Solution()
 nums = [1, 1, 1, 2, 2, 3]
 length = solution.removeDuplicates(nums)
