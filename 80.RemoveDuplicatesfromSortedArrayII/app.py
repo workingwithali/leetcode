@@ -12,7 +12,6 @@ class Solution:
                 index += 1
                 
         return index
-# Example usage
 solution = Solution()
 nums = [1, 1, 1, 2, 2, 3]
 length = solution.removeDuplicates(nums)
