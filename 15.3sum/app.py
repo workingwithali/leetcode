@@ -26,3 +26,4 @@ class Solution:
 Solution = Solution()
 array = [-1,-2,-3,-1]
 result = Solution.threeSum(array)
+print
