@@ -10,7 +10,7 @@ class Solution:
             
             for j in range(i+1, n):
                 if j > i+1 and nums[j] == nums[j-1]:
-                    continue  # Skip duplicate values for the second number
+                    continue  
                 
                 left, right = j+1, n-1
                 while left < right:
