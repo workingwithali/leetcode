@@ -21,7 +21,7 @@ class Solution:
                         while left < right and nums[left] == nums[left+1]:
                             left += 1  
                         while left < right and nums[right] == nums[right-1]:
-                            right -= 1  # Skip duplicate values for the fourth number
+                            right -= 1  
                         
                         left += 1
                         right -= 1
