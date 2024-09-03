@@ -1,6 +1,6 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
-        nums.sort()  # Sort the array to make it easier to avoid duplicates
+        nums.sort()  
         res = []
         n = len(nums)
         
