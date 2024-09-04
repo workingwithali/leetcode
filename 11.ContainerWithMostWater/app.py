@@ -12,5 +12,6 @@ class solution :
         return res
     
 height = [2,3,5,7,9,3,5,10,]
+solution = solution()
 
 
