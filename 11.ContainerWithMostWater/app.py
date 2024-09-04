@@ -4,7 +4,7 @@ class solution :
         res = 0
         while l < r:
             area = r-l * min(height[l], height[r])
-            res = max [area,res]
+            res = max(area,res)
             if height[l] < height[r]:
                 l +=1
             else: 
@@ -13,5 +13,6 @@ class solution :
     
 height = [2,3,5,7,9,3,5,10,]
 solution = solution()
-
+result = solution.water(height)
+print(result)
 
