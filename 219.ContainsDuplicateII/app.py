@@ -10,7 +10,7 @@ class solutin:
                 return True
             window.add(nums[r])
 solutin = solutin()
-nums = [,1,2,4,5,3,3,5,3,2,2]
+nums = [1,2,4,5,3,3,5,3,2,2]
 k = 4
 result = solutin.dup(nums,k)
 print(result)
