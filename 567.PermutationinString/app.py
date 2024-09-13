@@ -24,7 +24,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
             return True
     
     return False
-# Test Case 1
 s1 = "ab"
 s2 = "eidbaooo"
 print(checkInclusion(s1, s2))  # Output: True
