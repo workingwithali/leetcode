@@ -8,14 +8,12 @@ def checkInclusion(s1: str, s2: str) -> bool:
     
     s1_count = Counter(s1)
     s2_count = Counter(s2[:len1])
-    # If the first window matches, return True
     if s1_count == s2_count:
         return True
     
     print(s1_count)
     print(s2_count)
     
-    # Slide the window across s2
     for i in range(len1, len2):
         # Add the next character in the window
         s2_count[s2[i]] += 1
