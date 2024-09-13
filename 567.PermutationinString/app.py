@@ -6,7 +6,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
     if len1 > len2:
         return False
     
-    # Frequency counters for s1 and the first window of s2
     s1_count = Counter(s1)
     s2_count = Counter(s2[:len1])
     # If the first window matches, return True
