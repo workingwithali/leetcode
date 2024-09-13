@@ -11,7 +11,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
     if s1_count == s2_count:
         return True
     
-    # print(s_count)
     
     for i in range(len1, len2):
         # Add the next character in the window
