@@ -3,7 +3,6 @@ from collections import Counter
 def checkInclusion(s1: str, s2: str) -> bool:
     len1, len2 = len(s1), len(s2)
     
-    # If s1 is longer than s2, s2 cannot have a permutation of s1
     if len1 > len2:
         return False
     
