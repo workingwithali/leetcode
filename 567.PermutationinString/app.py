@@ -28,7 +28,6 @@ s1 = "ab"
 s2 = "eidbaooo"
 print(checkInclusion(s1, s2))  # Output: True
 
-# Test Case 2
 s1 = "ab"
 s2 = "eidboaoo"
 print(checkInclusion(s1, s2))  # Output: False
