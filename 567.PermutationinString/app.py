@@ -20,7 +20,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
             del s2_count[s2[i - len1]]
         print(s2_count)
         
-        # If the current window matches s1_count, return True
         if s1_count == s2_count:
             return True
     
