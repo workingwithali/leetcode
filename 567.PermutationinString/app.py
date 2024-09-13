@@ -13,7 +13,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
     
     
     for i in range(len1, len2):
-        # Add the next character in the window
         s2_count[s2[i]] += 1
         # Remove the character that is no longer in the window
         s2_count[s2[i - len1]] -= 1
