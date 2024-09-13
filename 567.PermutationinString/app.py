@@ -16,7 +16,6 @@ def checkInclusion(s1: str, s2: str) -> bool:
         s2_count[s2[i]] += 1
         s2_count[s2[i - len1]] -= 1
         
-        # If the count becomes 0, remove the key from the dictionary
         if s2_count[s2[i - len1]] == 0:
             del s2_count[s2[i - len1]]
         print(s2_count)
