@@ -1,7 +1,7 @@
 class solutin :
     def vaild(self,s):
         stack =[]
-        cto ={")":"(","]":"[","}":"{}"}
+        cto ={")":"(","]":"[","}":"{"}
         for c in s:
             if c in cto:
                 if stack and stack[-1] == cto[c]:
@@ -14,3 +14,5 @@ class solutin :
     
 solutin = solutin()
 s = "()[]{}"
+result = solutin.vaild(s)
+print(result)
