@@ -1,0 +1,2 @@
+class solutin:
+    def vowel()
