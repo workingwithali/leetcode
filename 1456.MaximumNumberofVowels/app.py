@@ -7,7 +7,7 @@ class solution:
             print(cnt)
             if r - l + 1 > k:
                 cnt -=1 if s[l] in vowels else 0
-                print(cnt)
+                # print(cnt)
                 l +=1
             res = max(res, cnt)
         return res
