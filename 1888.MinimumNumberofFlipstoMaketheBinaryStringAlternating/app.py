@@ -15,4 +15,19 @@ class solution:
                 d1 +=1
             if s[r] != alt2[r]:
                 d2 +=1
+
+            if (r-l+1) > n:
+                if s[l] != alt1[l]:
+                    d1 -=1
+                if s[l] != alt2[l]:
+                    d2 -=1
+                l+=1
+            if (r-l+1)==0:
+                res = min(res,d1,d2)
+        return res
+    
+solution = solution()
+s = "111000"
+result = solution.number(s)
+print(result)
             
