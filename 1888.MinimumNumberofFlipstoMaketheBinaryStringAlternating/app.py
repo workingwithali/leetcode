@@ -22,7 +22,7 @@ class solution:
                 if s[l] != alt2[l]:
                     d2 -=1
                 l+=1
-            if (r-l+1)==0:
+            if (r-l+1)== n:
                 res = min(res,d1,d2)
         return res
     
