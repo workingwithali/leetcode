@@ -1,10 +1,24 @@
 class solution:
     def sub(self,nums,goal):
-        x = goal
-        if x < 0 return 0
-        l = 0
-        sum = 0
-        for r in range(len(nums))
+        def help( x):        
+            if x < 0:
+                return 0
+            l = 0
+            sum = 0
+            res = 0
+            for r in range(len(nums)):
+                sum += nums[r]
+                while sum > x:
+                    sum -= nums[l]
+                    l+=1
+                res += r-l+1
+            return res
+        
+        
+        return help(goal)- help(goal-1)
+            
+        
+        
 
 
 
