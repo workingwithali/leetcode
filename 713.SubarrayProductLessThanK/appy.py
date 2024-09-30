@@ -10,3 +10,10 @@ class solution :
                 l +=1
             res += (r-l+1)
         return res
+
+
+nums = [10,5,2,6]
+k = 100
+solution = solution()
+result = solution.sub(nums,k)
+print(result)
