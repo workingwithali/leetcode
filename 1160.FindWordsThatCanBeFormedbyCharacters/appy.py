@@ -14,3 +14,10 @@ class solution:
             if good:
                 res += len(w)
         return res
+    
+words = ["cat","bt","hat","tree"]
+chars = "atach"
+solution = solution()
+result = solution.word(words,chars)
+print(result)
+
