@@ -8,4 +8,5 @@ class solution:
                 return p[1] 
 paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 solution = solution()
-reult =
+reult = solution.city(paths)
+print(reult)
