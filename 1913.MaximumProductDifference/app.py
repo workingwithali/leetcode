@@ -14,4 +14,5 @@ class solution:
                 else:
                     min2 = n
 
-        return 
+        return (max1*max2)-(min1*min2)
+    
