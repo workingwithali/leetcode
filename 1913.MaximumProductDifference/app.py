@@ -15,4 +15,7 @@ class solution:
                     min2 = n
 
         return (max1*max2)-(min1*min2)
-    
+nums = [5,6,2,7,4]
+solution = solution()
+result = solution.Product(nums)
+print(result)
