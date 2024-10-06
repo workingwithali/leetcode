@@ -12,3 +12,6 @@ class solution :
         return res
 
 solution = solution()
+s = "011101"
+result = solution.score(s)
+print(result)
