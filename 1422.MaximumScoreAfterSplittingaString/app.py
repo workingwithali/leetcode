@@ -10,3 +10,5 @@ class solution :
                 one -=1
             res = max(res , zero + one)
         return res
+
+solution = solution()
