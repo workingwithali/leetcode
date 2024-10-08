@@ -1,7 +1,7 @@
 class solultion:
     def change(self,s):
         count = 0
-        for n in range(len(n)):
+        for n in range(len(s)):
             if n % 2:
                 count += 1 if s[n] =='0' else 0
             else:
