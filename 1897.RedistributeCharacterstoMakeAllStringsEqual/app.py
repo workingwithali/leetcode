@@ -9,4 +9,6 @@ class solution :
                 return False
         return True
 words = ["abc","aabc","bc"]
-    
+solution = solution()
+result = solution.word(words)
+print(words)
