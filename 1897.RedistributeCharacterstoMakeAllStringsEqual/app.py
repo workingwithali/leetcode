@@ -1,6 +1,8 @@
+from collections import defaultdict
 class solution :
     def word(self,words):
-        char = {}
+
+        char = defaultdict(int)
         for w in words:
             for c in w:
                 char[c] +=1
@@ -11,4 +13,4 @@ class solution :
 words = ["abc","aabc","bc"]
 solution = solution()
 result = solution.word(words)
-print(words)
+print(result)
