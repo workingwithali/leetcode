@@ -7,4 +7,9 @@ class solution:
                 res = max(res,i-char[c]-1)
             else:
                 char[c] = i
-        return res        
+        return res  
+
+s = "abca"
+solution = solution()
+result = solution.substing(s)
+print(result)      
