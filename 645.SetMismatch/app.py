@@ -13,3 +13,6 @@ class Solution:
         duplicate = missing - diff1
         
         return [duplicate, missing]
+nums = [1,2,2,4]
+Solution = Solution
+result = Solution.findErrorNums(nums)
