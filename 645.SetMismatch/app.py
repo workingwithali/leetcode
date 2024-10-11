@@ -16,3 +16,4 @@ class Solution:
 nums = [1,2,2,4]
 Solution = Solution
 result = Solution.findErrorNums(nums)
+print
