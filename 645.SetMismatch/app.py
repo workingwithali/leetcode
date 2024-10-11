@@ -1,5 +1,5 @@
 class Solution:
-    def findErrorNums(self, nums: List[int]) -> List[int]:
+    def findErrorNums(self, nums):
         n = len(nums)
         total_sum = sum(range(1, n + 1))
         actual_sum = sum(nums)
