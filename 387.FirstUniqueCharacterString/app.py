@@ -13,4 +13,4 @@ def unique(s):
 
 s = "leetcode"
 result = unique(s)
-print(reult)
+print(result)
