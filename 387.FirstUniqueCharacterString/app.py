@@ -11,3 +11,6 @@ def unique(s):
             return i
     return -1
 
+s = "leetcode"
+result = unique(s)
+print
