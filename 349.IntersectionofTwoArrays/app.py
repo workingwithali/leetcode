@@ -8,8 +8,8 @@ class solution:
                 seen.remove(n)
         return res
     
-solution = solution()
-nums1 = [1,2,2,1]
-nums2 = [2,2]
-result = solution.intersection(nums1,nums2)
-print(result)
+# solution = solution()
+# nums1 = [1,2,2,1]
+# nums2 = [2,2]
+# result = solution.intersection(nums1,nums2)
+# print(result)
