@@ -6,3 +6,5 @@ class solution:
                 return 0
             elif i<0:
                 sign = -sign
+        return sign
+ 
