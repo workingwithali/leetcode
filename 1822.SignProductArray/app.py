@@ -7,4 +7,8 @@ class solution:
             elif i<0:
                 sign = -sign
         return sign
- 
+
+
+solution = solution()
+nums = [2,3,4,-3,-3,-4,-4]
+result = solution.sign(nums)
