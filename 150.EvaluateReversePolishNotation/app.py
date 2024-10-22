@@ -16,3 +16,4 @@ def resvers(tokens):
     return stack[0]
 tokens = ["2","1","+","3","*"]
 result = resvers(tokens)
+print(result)
