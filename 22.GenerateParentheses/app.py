@@ -1,5 +1,5 @@
 class Solution:
-    def generateParenthesis(self, n: int):
+    def generateParenthesis(self, n):
         stack = []
         res = []
 
