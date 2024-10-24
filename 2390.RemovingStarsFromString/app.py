@@ -7,3 +7,7 @@ class solutin:
             else:
                 stack.append(c)
         return ''.join(stack)
+    
+s = "leet**cod*e"
+solutin = solutin()
+result = solutin.remove(s)
