@@ -6,4 +6,4 @@ class solution:
             stack.append(n)
             while i < len(popped) and stack and popped[i] == stack[-1]:
                 stack.pop()
-                i
+                i += 1
