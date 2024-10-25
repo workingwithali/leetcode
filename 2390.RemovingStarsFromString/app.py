@@ -11,3 +11,4 @@ class solutin:
 s = "leet**cod*e"
 solutin = solutin()
 result = solutin.remove(s)
+print(result)
