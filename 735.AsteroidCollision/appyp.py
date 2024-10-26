@@ -5,7 +5,7 @@ class solution:
             while stack and s < 0 and stack[-1] > 0:
                 diff = s + stack[-1]
                 if diff > 0:
-                    s == 0
+                    s = 0
                 elif diff < 0:
                     stack.pop()
                 else:
@@ -14,7 +14,8 @@ class solution:
             if s:
                 stack.append(s)
         return stack
+    
 solution =solution()
 asteroids = [5,10,-5]
 result = solution.collision(asteroids)
-print
+print(result)
