@@ -13,4 +13,4 @@ class solution:
                     stack.pop()
             if s:
                 stack.append(s)
-            
+            return stack
