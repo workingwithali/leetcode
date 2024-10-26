@@ -14,3 +14,6 @@ class solution:
             if s:
                 stack.append(s)
         return stack
+solution =solution()
+asteroids = [5,10,-5]
+result = solution.collision(asteroids)
