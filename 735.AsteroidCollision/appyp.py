@@ -17,3 +17,4 @@ class solution:
 solution =solution()
 asteroids = [5,10,-5]
 result = solution.collision(asteroids)
+print
