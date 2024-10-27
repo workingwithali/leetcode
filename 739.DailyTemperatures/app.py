@@ -9,3 +9,4 @@ class solution :
                 res[cool_day] = i - cool_day
             stack[i]
         return res
+solution =solution()
