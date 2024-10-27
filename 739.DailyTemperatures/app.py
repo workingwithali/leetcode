@@ -7,7 +7,7 @@ class solution :
             while stack and t[i]>t[stack[-1]]:
                 cool_day = stack.pop()
                 res[cool_day] = i - cool_day
-            stack[i]
+            stack.append(i)
         return res
 solution =solution()
 temperatures = [73,74,75,71,69,72,76,73]
