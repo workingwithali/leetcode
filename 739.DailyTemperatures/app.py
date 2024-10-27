@@ -10,3 +10,5 @@ class solution :
             stack[i]
         return res
 solution =solution()
+temperatures = [73,74,75,71,69,72,76,73]
+r
