@@ -10,3 +10,4 @@ class solution:
             else:
                 stack.append(i)
         return '/'+'/'.join(stack)
+solution =solution()
