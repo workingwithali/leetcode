@@ -13,3 +13,4 @@ class solution:
 solution =solution()
 path = "//home./user//document/../file"
 result = solution.paths(path)
+print(result)
