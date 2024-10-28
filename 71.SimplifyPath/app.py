@@ -6,4 +6,7 @@ class solution:
                 if stack:
                     stack.pop()
             elif i == '.' or i =='':
-                
+                continue
+            else:
+                stack.append(i)
+        return '/'+'/'.join(stack)
