@@ -11,3 +11,5 @@ class solution:
                 stack.append(i)
         return '/'+'/'.join(stack)
 solution =solution()
+path = "//home./user//document/../file"
+result = solution.paths(path)
