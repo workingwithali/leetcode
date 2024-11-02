@@ -12,3 +12,4 @@ class solution :
         return -1
     
 solution = solution()
+result = solution.binary(nums,target)
