@@ -12,4 +12,6 @@ class solution :
         return -1
     
 solution = solution()
+nums = [-1,0,3,5,9,12], target = 9
 result = solution.binary(nums,target)
+print(result)
