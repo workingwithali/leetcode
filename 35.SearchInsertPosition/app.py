@@ -15,3 +15,4 @@ solution = solution()
 nums = [1,3,5,6]
 target = 5
 result = solution.insert(nums,target)
+print(result)
