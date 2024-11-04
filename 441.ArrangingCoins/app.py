@@ -15,3 +15,4 @@ class solution:
 solution =solution()
 n =100
 result = solution.arrang(n)
+print(result)
