@@ -11,3 +11,7 @@ class solution:
             else:
                 r = mid -1
         return r
+    
+solution =solution()
+n =100
+result = solution.arrang(n)
