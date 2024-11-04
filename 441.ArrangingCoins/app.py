@@ -6,4 +6,7 @@ class solution:
             coins = mid*(mid+1)//2
             if coins == n:
                 return mid
-            elif 
+            elif coins < n:
+                l = mid + 1
+            else:
+                r = mid -1
