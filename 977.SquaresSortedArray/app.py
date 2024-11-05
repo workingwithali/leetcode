@@ -15,3 +15,8 @@ class solution:
                 r-=1
             position -=1
         return result
+    
+solution = solution()
+nums = [-4,-1,0,3,10]
+result = solution.saquare(nums)
+print(result)
