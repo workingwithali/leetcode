@@ -14,3 +14,4 @@ class solution:
     
 solution = solution()
 num = 16
+result =
