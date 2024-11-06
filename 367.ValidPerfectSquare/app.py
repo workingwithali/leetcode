@@ -15,3 +15,4 @@ class solution:
 solution = solution()
 num = 16
 result = solution.saq(num)
+print(result)
