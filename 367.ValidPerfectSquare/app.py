@@ -11,3 +11,5 @@ class solution:
             else:
                 r = mid - 1
         return False
+    
+solution
