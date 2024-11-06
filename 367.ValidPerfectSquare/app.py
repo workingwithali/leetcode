@@ -12,4 +12,4 @@ class solution:
                 r = mid - 1
         return False
     
-solution
+solution = solution()
