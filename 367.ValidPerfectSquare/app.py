@@ -13,3 +13,4 @@ class solution:
         return False
     
 solution = solution()
+num = 16
