@@ -14,4 +14,4 @@ class solution:
     
 solution = solution()
 num = 16
-result = solution.saq
+result = solution.saq(num)
