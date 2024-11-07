@@ -10,3 +10,5 @@ class solution:
                 l = mid +1
             else:
                 r = mid - 1
+        return r
+solution = solution()
