@@ -6,12 +6,12 @@ class solution:
             saq = mid*mid
             if saq == x:
                 return mid
-            elif saq<mid:
+            elif saq<x:
                 l = mid +1
             else:
                 r = mid - 1
-        return r
+        return l
 solution = solution()
-x =22
+x =8
 result = solution.sq(x)
 print(result)
