@@ -11,3 +11,4 @@ class solution:
 solution =solution()
 nums = {1,2,3,5,3,4,3,4}
 r = solution.find(nums)
+print(r)
