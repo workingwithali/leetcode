@@ -4,9 +4,9 @@ def singleNonDuplicate(nums):
     while left < right:
         mid = left + (right - left) // 2
         # Ensure `mid` is even for comparison consistency
+        print(mid)
         if mid % 2 == 1:
             mid -= 1
-        print(mid)
         
         if nums[mid] == nums[mid + 1]:
             # Single element is in the right half
