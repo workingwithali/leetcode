@@ -8,3 +8,4 @@ class solution:
             else:
                 r=mid
         return l
+solution =solution()
