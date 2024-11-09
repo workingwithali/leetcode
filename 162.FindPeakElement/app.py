@@ -9,3 +9,5 @@ class solution:
                 r=mid
         return l
 solution =solution()
+nums = {1,2,3,5,3,4,3,4}
+s
