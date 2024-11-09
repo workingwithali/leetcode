@@ -10,4 +10,4 @@ class solution:
         return l
 solution =solution()
 nums = {1,2,3,5,3,4,3,4}
-s
+r = solution.find(nums)
