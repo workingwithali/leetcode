@@ -5,3 +5,5 @@ class solution:
                 if matrix[r][c] == target:
                     return True
         return False
+    
+solution =solution()
