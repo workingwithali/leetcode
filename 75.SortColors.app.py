@@ -10,4 +10,4 @@ class solution:
                 mid+=1
             else:
                 nums[l],nums[h]=nums[h],nums[l]
-                
+                h-=1
