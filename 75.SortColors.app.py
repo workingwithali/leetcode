@@ -9,7 +9,7 @@ class solution:
             elif nums[m]==1:
                 mid+=1
             else:
-                nums[l],nums[h]=nums[h],nums[l]
+                nums[m],nums[h]=nums[h],nums[m]
                 h-=1
 solution =solution()
 nums = {0,2,1,2,0}
