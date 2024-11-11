@@ -11,3 +11,4 @@ class solution:
             else:
                 nums[l],nums[h]=nums[h],nums[l]
                 h-=1
+solution =solution()
