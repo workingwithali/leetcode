@@ -14,3 +14,4 @@ class solution:
 solution =solution()
 nums = {0,2,1,2,0}
 r =solution.sort(nums)
+print(r)
