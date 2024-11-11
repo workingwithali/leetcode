@@ -13,4 +13,4 @@ class solution:
                 h-=1
 solution =solution()
 nums = {0,2,1,2,0}
-r
+r =solution.sort(nums)
