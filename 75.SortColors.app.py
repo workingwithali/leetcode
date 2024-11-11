@@ -12,3 +12,5 @@ class solution:
                 nums[l],nums[h]=nums[h],nums[l]
                 h-=1
 solution =solution()
+nums = {0,2,1,2,0}
+r
