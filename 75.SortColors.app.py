@@ -6,4 +6,8 @@ class solution:
                 nums[l],nums[m]=nums[m],nums[l]
                 l+=1
                 m+=1
-            elif nums[]
+            elif nums[m]==1:
+                mid+=1
+            else:
+                nums[l],nums[h]=nums[h],nums[l]
+                
