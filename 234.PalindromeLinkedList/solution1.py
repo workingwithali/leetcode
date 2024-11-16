@@ -22,4 +22,9 @@ class solution:
             l = l.next
             r = r.next
         return True
+    
+
+solution = solution()
+head = [1,2,2,1]
+r = solution.linked(head)
 
