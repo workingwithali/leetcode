@@ -3,5 +3,8 @@ class solution:
         cur = head
         while cur:
             while cur.next and cur.next.va==cur.val:
-                
+                cur.next = cur.next.next
+            cur = cur.next
+            
+
 
