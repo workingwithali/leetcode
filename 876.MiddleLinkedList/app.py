@@ -1,2 +1,3 @@
 class solution:
-    def midle
+    def midle(slef,head):
+        
