@@ -8,4 +8,11 @@ class solution:
         for _ in range(b-a+2):
             after = after.next
 
-        prev.next = list2   
+        prev.next = list2 
+
+        tail = list2
+        while tail.next:
+            tail= tail.next
+
+        tail.next = after
+          
