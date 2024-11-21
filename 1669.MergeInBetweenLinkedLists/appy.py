@@ -15,4 +15,5 @@ class solution:
             tail= tail.next
 
         tail.next = after
-          
+        return list1
+
