@@ -3,4 +3,9 @@ class solution:
         prev = list1
         for _ in range(a-1):
             prev = prev.next
-            
+
+        after = prev
+        for _ in range(b-a+2):
+            after = after.next
+
+        prev.next = list2   
