@@ -4,7 +4,7 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        if not head or not head.next:  # Handle edge cases for empty or single-node lists
+        if not head or not head.next:  
             return
         
         # Step 1: Find the middle of the list
