@@ -17,7 +17,7 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
 
-        # Step 2: Reverse the second half of the list
+        
         prev = None
         curr = slow
         while curr:
