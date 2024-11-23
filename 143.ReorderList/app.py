@@ -22,7 +22,7 @@ class Solution:
             prev = curr
             curr = nextp
 
-        # Step 3: Merge the two halves
+        
         first, second = head, prev
         while second and second.next:
             tmp1, tmp2 = first.next, second.next
