@@ -7,7 +7,7 @@ class Solution:
         if not head or not head.next:  
             return
         
-        # Step 1: Find the middle of the list
+        
         slow, fast = head, head
         while fast and fast.next:
             slow = slow.next
