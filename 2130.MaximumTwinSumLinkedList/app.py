@@ -14,4 +14,4 @@ class solution:
             res = max(res,prev.val+slow.val)
             prev = prev.next
             slow = slow.next
-            
+        return res
