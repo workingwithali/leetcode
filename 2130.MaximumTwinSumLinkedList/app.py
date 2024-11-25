@@ -11,4 +11,4 @@ class solution:
 
         res= 0
         while slow:
-            
+            res = max(res,prev.val+slow.val)
