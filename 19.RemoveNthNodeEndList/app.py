@@ -10,7 +10,7 @@ class solution:
             return head.next
         for i in range(N-1):
             if (i+1)==remove:
-                cur.nex?t = cur.next.next
+                cur.next = cur.next.next
                 break
             cur = cur.next
         return head
