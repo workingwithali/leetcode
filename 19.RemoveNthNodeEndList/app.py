@@ -12,5 +12,5 @@ class solution:
             if (i+1)==remove:
                 cur.next = cur.next.next
                 break
-            # cur = cur.next
+            cur = cur.next
         return head
