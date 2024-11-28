@@ -23,4 +23,6 @@ def copy(self,head):
     while cur:
         copy = cur.next
         cur.next = copy.next
-        cur
+        if copy.next:
+            copy.next = copy.next.next
+        
