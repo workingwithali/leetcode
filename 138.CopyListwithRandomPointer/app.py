@@ -15,4 +15,11 @@ def copy(self,head):
     cur = head
     while cur:
         if cur.random:
-            cur.next.random =
+            cur.next.random = cur.random.next
+        cur = cur.next.next
+
+    cur = head
+    copy_head = head.next
+    while cur:
+        copy = cur.next
+        
