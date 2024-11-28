@@ -26,3 +26,4 @@ def copy(self,head):
         if copy.next:
             copy.next = copy.next.next
         
+    return copy_head
