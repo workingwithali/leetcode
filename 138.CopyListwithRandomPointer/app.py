@@ -22,4 +22,5 @@ def copy(self,head):
     copy_head = head.next
     while cur:
         copy = cur.next
-        
+        cur.next = copy.next
+        cur
