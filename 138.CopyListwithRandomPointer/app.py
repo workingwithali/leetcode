@@ -8,4 +8,6 @@ def copy(self,head):
         return None
     cur = head
     while head
-    new_node = Node()
+    new_node = Node(cur.val,cur.next)
+    cur.next = new_node
+    cur = new_node.next
