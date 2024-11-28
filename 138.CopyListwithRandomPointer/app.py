@@ -11,3 +11,8 @@ def copy(self,head):
     new_node = Node(cur.val,cur.next)
     cur.next = new_node
     cur = new_node.next
+
+    cur = head
+    while cur:
+        if cur.random:
+            cur.next.random =
