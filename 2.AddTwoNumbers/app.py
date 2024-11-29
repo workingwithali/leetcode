@@ -6,3 +6,6 @@ class ListNode:
 def add(l1,l2):
     dummy = ListNode(0)
     cur = dummy
+    carry = 0
+    while l1 or l2 or carry:
+        
