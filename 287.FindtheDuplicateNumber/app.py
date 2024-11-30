@@ -7,3 +7,4 @@ class solution:
         return -1
     
 solution = solution()
+nums = [1,2,3,2,3,4,4]
