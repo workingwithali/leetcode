@@ -12,4 +12,4 @@ class solution:
             inorder(root.left)
             res.append(root.val)
             inorder(root.right)
-            
+        inorder(root)  
