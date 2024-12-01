@@ -3,4 +3,13 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-class 
+class solution:
+    def tree(self,root):
+        res = []
+        def inorder(root):
+            if not root:
+                return
+            inorder(root.left)
+            res.append(root.val)
+            inorder(root.right)
+            
