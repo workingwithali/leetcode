@@ -15,3 +15,5 @@ class solution:
         inorder(root)  
 
 solution = solution()
+root = [1,null,2,3]
+r 
