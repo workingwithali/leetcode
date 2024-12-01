@@ -15,7 +15,9 @@ class Solution:
         inorder(root) 
         return res 
 
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)
 Solution = Solution()
-root = [1,None,2,3]
 r =Solution.tree(root)
 print(r)
