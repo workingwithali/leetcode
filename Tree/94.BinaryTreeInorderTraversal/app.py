@@ -13,3 +13,5 @@ class solution:
             res.append(root.val)
             inorder(root.right)
         inorder(root)  
+
+solution = solution()
