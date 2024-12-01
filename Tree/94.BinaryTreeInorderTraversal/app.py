@@ -3,7 +3,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-class solution:
+class Solution:
     def tree(self,root):
         res = []
         def inorder(root):
@@ -12,8 +12,10 @@ class solution:
             inorder(root.left)
             res.append(root.val)
             inorder(root.right)
-        inorder(root)  
+        inorder(root) 
+        return res 
 
-solution = solution()
+Solution = Solution()
 root = [1,None,2,3]
-r =solution.tree(root)
+r =Solution.tree(root)
+print(r)
