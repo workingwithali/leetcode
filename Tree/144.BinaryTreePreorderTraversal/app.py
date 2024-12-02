@@ -4,4 +4,12 @@ class TreeNode:
         self.left = left
         self.right = right
 
-class 
+class solution:
+    def preorder(self, root):
+        res = []
+        def preorder(root):
+            res.append(root.val)
+            preorder(root.left)
+            preorder(root.right)
+        preorder(root)
+        
