@@ -13,3 +13,5 @@ class solution:
             preorder(root.right)
         preorder(root)
         return res
+    
+solution = solution()
