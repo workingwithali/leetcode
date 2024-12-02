@@ -12,4 +12,4 @@ class solution:
             preorder(root.left)
             preorder(root.right)
         preorder(root)
-        
+        return res
