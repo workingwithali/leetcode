@@ -4,8 +4,8 @@ class TreeNode:
         self.left = left
         self.right = right
 
-class solution:
-    def preorder(self, root):
+class Solution:
+    def tree(self, root):
         res = []
         def preorder(root):
             res.append(root.val)
@@ -14,9 +14,9 @@ class solution:
         preorder(root)
         return res
     
-solution = solution()
 root = TreeNode(1)
 root.right = TreeNode(2)
 root.right.left = TreeNode(3)
-r = solution.preorder(root)
+Solution = Solution()
+r = Solution.tree(root)
 print(r)
