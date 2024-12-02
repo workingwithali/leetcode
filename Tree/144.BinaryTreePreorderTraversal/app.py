@@ -6,8 +6,11 @@ class TreeNode:
 
 class Solution:
     def tree(self, root):
+
         res = []
         def preorder(root):
+            if not root:
+                return
             res.append(root.val)
             preorder(root.left)
             preorder(root.right)
@@ -17,6 +20,6 @@ class Solution:
 root = TreeNode(1)
 root.right = TreeNode(2)
 root.right.left = TreeNode(3)
-Solution = Solution()
-r = Solution.tree(root)
+solution = Solution()
+r = solution.tree(root)
 print(r)
