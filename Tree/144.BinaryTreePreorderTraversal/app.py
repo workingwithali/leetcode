@@ -15,3 +15,7 @@ class solution:
         return res
     
 solution = solution()
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)
+
