@@ -13,4 +13,4 @@ class Solution:
             postorder(root.right)
             res.append(root.val)
         postorder(root)
-        
+        return res
