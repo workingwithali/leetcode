@@ -12,4 +12,5 @@ class Solution:
             postorder(root.left)
             postorder(root.right)
             res.append(root.val)
-        post
+        postorder(root)
+        
