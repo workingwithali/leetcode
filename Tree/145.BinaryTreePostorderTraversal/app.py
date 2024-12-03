@@ -15,8 +15,8 @@ class Solution:
         postorder(root)
         return res
 
-root = TreeNode(3)
-root.right = TreeNode(3)
+root = TreeNode(1)
+root.right = TreeNode(2)
 root.right.left = TreeNode(3)
 solution = Solution()
 r = solution.tree(root)
