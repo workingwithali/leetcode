@@ -6,3 +6,6 @@ class TreeNode:
 class Solution:
     def tree(self,root):
         res=[]
+        def postorder(root):
+            if not root:
+                return
