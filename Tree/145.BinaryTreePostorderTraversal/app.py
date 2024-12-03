@@ -5,4 +5,4 @@ class TreeNode:
         self.right =right
 class Solution:
     def tree(self,root):
-        
+        res=[]
