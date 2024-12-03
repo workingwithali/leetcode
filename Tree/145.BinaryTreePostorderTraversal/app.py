@@ -14,3 +14,5 @@ class Solution:
             res.append(root.val)
         postorder(root)
         return res
+
+solution = Solution()
