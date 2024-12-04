@@ -8,3 +8,6 @@ class Solution:
         if not root:
             return None
         root.left ,root.right = root.right, root.left
+        self.inver(root.left)
+        self.inver(root.right)
+        return root
