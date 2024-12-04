@@ -7,7 +7,7 @@ class Solution:
     def invert(self,root):
         if not root:
             return None
-        root.left ,root.right = root.right, root.left
+        temp = root.left ,root.right = root.right, root.left
         self.invert(root.left)
         self.invert(root.right)
         return root
