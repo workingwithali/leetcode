@@ -5,3 +5,6 @@ class TreeNode:
         self.right = right
 class Solution:
     def invert(self,root):
+        if not root:
+            return None
+        
