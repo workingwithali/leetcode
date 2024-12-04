@@ -8,8 +8,8 @@ class Solution:
         if not root:
             return None
         root.left ,root.right = root.right, root.left
-        self.inver(root.left)
-        self.inver(root.right)
+        self.invert(root.left)
+        self.invert(root.right)
         return root
 
 root = TreeNode(1)
