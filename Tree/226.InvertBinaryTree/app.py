@@ -4,3 +4,4 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
+    def invert(self,root):
