@@ -11,3 +11,9 @@ class Solution:
         self.inver(root.left)
         self.inver(root.right)
         return root
+
+root = TreeNode(1)
+root.right = TreeNode(2)
+root.right.left = TreeNode(3)   
+solution = Solution()
+r = solution.invert(root)
