@@ -3,5 +3,13 @@ class Tree:
         self.val = val
         self.left = left
         self.right = right
-
+class Solution:
+    def isSame(sefl,p,q):
+        if not p and not q:
+            return True
+        if not p or not q:
+            return False
+        if p.val != q.val:
+            return False
+        return se
         
