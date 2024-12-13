@@ -9,4 +9,4 @@ class Solution:
         def helper(l,r):
             if l>r:
                 return None
-            
+            root = TreeNode(nums[m])
