@@ -13,3 +13,5 @@ class Solution:
             root = TreeNode(nums[m])
             root.left = helper(l,m-1)
             root.right = helper(m+1,r)
+            return root
+        return helper(0,len(nums)-1)
