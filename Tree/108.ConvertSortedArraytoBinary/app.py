@@ -1,6 +1,6 @@
 class TreeNode:
     def __init__(self,val=0,left=None,right=None):
-        self.val =val
+        self.val = val
         self.left = left
         self.right = right
 
@@ -17,3 +17,6 @@ class Solution:
         return helper(0,len(nums)-1)
 
 solution = Solution()
+nums = [0,1,2,3,4,5]
+result = solution.sortArray(nums)
+print(result)
