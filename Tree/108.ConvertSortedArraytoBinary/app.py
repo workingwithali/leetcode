@@ -6,3 +6,7 @@ class TreeNode:
 
 class Solution:
     def sortArray(self,nums):
+        def helper(l,r):
+            if l>r:
+                return None
+            
