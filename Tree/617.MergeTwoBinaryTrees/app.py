@@ -12,3 +12,4 @@ class Solution:
         root1.val += root2.val
         root1.left = self.MergeTree(root1.left,root2.left)
         root1.left = self.MergeTree(root1.right,root2.right)
+        return root1
