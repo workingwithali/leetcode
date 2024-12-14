@@ -15,5 +15,5 @@ class Solution:
         return root1
     
 solution = Solution()
-result = solution.MergeTree(root1,root2)
+# result = solution.MergeTree(root1,root2)
 print(result)
