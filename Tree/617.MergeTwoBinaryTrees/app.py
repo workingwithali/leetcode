@@ -16,7 +16,7 @@ class Solution:
     
 solution = Solution()
 root1 = [1,3,2,5]
-root2 = [2,1,3,null,4,null,7]
+root2 = [2,1,3,None,4,None,7]
 
 result = solution.MergeTree(root1,root2)
 print(result)
