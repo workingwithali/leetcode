@@ -10,4 +10,5 @@ class Solution:
         if not root2:
             return root1
         root1.val += root2.val
-        root.left = self.MergeTree(root1.left,root2.left)
+        root1.left = self.MergeTree(root1.left,root2.left)
+        root1.left = self.MergeTree(root1.right,root2.right)
