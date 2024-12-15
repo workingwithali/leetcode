@@ -12,4 +12,4 @@ class Solution:
             curSum += targeSum
             if not root.left and not root.right:
                 return curSum == targeSum
-             
+            return helper(root.left,curSum) or helper(root.right,curSum)
