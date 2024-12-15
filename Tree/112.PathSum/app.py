@@ -16,6 +16,9 @@ class Solution:
         return helper(root,0)
     
 solution = Solution()
-result = solution.path(root,targeSum)
+root = [5,4,8,11,None,13,4,7,2,None,None,None,1]
+targetSum = 22
+
+result = solution.path(root,targetSum)
 print(result)
 
