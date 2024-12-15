@@ -16,4 +16,6 @@ class Solution:
         return helper(root,0)
     
 solution = Solution()
+result = solution.path(root,targeSum)
+print(result)
 
