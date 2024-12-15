@@ -6,4 +6,9 @@ class TreeNode:
 
 class Solution:
     def path(self, root , targeSum):
-        
+        def helper(root, curSum):
+            if not root :
+                return False
+            curSum += targeSum
+            if not root.left and not root.right:
+                return 
