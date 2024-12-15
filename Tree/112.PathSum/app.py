@@ -14,3 +14,6 @@ class Solution:
                 return curSum == targeSum
             return helper(root.left,curSum) or helper(root.right,curSum)
         return helper(root,0)
+    
+solution = Solution()
+
