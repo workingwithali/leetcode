@@ -11,4 +11,5 @@ class Solution:
                 return False
             curSum += targeSum
             if not root.left and not root.right:
-                return 
+                return curSum == targeSum
+             
