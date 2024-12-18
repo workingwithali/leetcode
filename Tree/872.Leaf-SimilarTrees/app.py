@@ -3,3 +3,13 @@ class NodeTree:
         self.val = val
         self.right = right
         self.left = left
+class Solution:
+    def similar(self,root1,root2):
+        def leaf(root,leaf):
+            if not root:
+                return
+
+        leaf1,leaf2 =[],[]
+        leaf(root1,leaf1)
+        leaf(root2,leaf2)
+        return leaf1 == leaf2
