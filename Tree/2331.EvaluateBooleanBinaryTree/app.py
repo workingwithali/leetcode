@@ -11,5 +11,9 @@ class Solution:
             return (
                 self.boolen(root.left)or
                 self.boolen(root.right)
-
+            )
+        elif root.val ==3:
+            return (
+                self.boolen(root.left)or
+                self.boolen(root.right)
             )
