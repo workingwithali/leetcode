@@ -7,4 +7,9 @@ class Solution:
     def boolen(self,root):
         if not root.left:
             return root.val == 1
-        
+        if root.val ==2:
+            return (
+                self.boolen(root.left)or
+                self.boolen(root.right)
+
+            )
