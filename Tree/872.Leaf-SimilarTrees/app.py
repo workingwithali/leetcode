@@ -8,6 +8,9 @@ class Solution:
         def leaf(root,leaf):
             if not root:
                 return
+            if not root.left and not root.right:
+                leaf.append(root.val)
+                return
 
         leaf1,leaf2 =[],[]
         leaf(root1,leaf1)
