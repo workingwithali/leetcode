@@ -14,6 +14,6 @@ class Solution:
             )
         elif root.val ==3:
             return (
-                self.boolen(root.left)or
+                self.boolen(root.left)and
                 self.boolen(root.right)
             )
