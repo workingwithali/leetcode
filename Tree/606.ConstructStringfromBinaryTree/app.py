@@ -6,5 +6,15 @@ class NodeTree:
 class Solution:
     def string(self,root):
         res = []
-        def
+        def preorder(root):
+            if not root:
+                return
+            res.append("(")
+            res.append(str(root.val))
+            preorder(root.left)
+            preorder(root.right)
+            res.append(")")
+    
+    
+    
         return "".join(res)[1:-1]
