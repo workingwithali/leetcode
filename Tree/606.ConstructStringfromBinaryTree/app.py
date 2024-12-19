@@ -15,6 +15,7 @@ class Solution:
             preorder(root.right)
             res.append(")")
     
+        preorder(root)
     
     
         return "".join(res)[1:-1]
