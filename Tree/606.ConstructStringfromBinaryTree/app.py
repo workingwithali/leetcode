@@ -3,4 +3,8 @@ class NodeTree:
         self.val = val
         self.left = left
         self.right = right
-        
+class Solution:
+    def string(self,root):
+        res = []
+        def
+        return "".join(res)[1:-1]
