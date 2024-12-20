@@ -1,3 +1,5 @@
 class NodeTree:
     def __init__(self):
-        pass
+        self.val = Val
+        self.right = right
+        self.left = left
