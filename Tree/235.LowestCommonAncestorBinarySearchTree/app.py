@@ -17,3 +17,4 @@ class Solution:
 
 solution = Solution()
 result = solution.lca()
+print(result)
