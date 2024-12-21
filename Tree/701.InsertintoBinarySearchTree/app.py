@@ -5,4 +5,8 @@ class TreeNode:
         self.left = left
 
 class Solution:
-    def 
+    def insert(self,root,val):
+        if not root :
+            return TreeNode(val)
+        if val > root.val:
+            root.right = 
