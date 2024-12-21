@@ -11,4 +11,6 @@ class Solution:
         if val > root.val:
             root.right = self.insert(root.right,val)
         else:
-            root.left = self.insert(root.right,val)
+            root.left = self.insert(root.left,val)
+
+        return root
