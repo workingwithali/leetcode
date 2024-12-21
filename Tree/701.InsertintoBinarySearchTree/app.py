@@ -9,4 +9,6 @@ class Solution:
         if not root :
             return TreeNode(val)
         if val > root.val:
-            root.right = 
+            root.right = self.insert(root.right,val)
+        else:
+            root.right = self.insert(root.right,val)
