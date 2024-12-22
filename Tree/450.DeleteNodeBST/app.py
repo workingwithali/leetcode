@@ -19,4 +19,7 @@ class Solution :
                 return root.left
             cur = root.right
             while cur.left:
+                cur = cur.left
+            root.val = cur.val
+            
 
