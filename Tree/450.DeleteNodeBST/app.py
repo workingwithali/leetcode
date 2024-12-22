@@ -22,4 +22,5 @@ class Solution :
                 cur = cur.left
             root.val = cur.val
             root.right = self.delete(root.right,root.val)
+        return root
 
