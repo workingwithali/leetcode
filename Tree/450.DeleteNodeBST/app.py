@@ -17,4 +17,6 @@ class Solution :
                 return root.right
             elif not root.right:
                 return root.left
-            
+            cur = root.right
+            while cur.left:
+
