@@ -1,4 +1,5 @@
 # Definition for a binary tree node.
+from collections import deque
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -7,7 +8,7 @@ class TreeNode:
 class Solution:
     def rightSideView(self, root):
         res = []
-        q = collections.deque([root])
+        q = deque([root])
         while q:
             rightside = None
             qlen = len(q)
@@ -21,3 +22,7 @@ class Solution:
                 res.append(rightside.val)
 
         return res
+    
+root = TreeNode(1, TreeNode(2, None, TreeNode(5)), TreeNode(3, None, TreeNode(4)))
+sol = Solution()
+print(sol.rightSideView(root))
