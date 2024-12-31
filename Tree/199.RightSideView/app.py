@@ -1,27 +1,23 @@
-from collections import deque
-
+# Definition for a binary tree node.
 class TreeNode:
-    def __init__(self, value=0, left=None, right=None):
-        self.value = value
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
         self.left = left
         self.right = right
+class Solution:
+    def rightSideView(self, root):
+        res = []
+        q = collections.deque([root])
+        while q:
+            rightside = None
+            qlen = len(q)
+            for i in range(qlen):
+                node = q.popleft()
+                if node:
+                    rightside =node
+                    q.append(node.left)
+                    q.append(node.right)
+            if rightside:
+                res.append(rightside.val)
 
-# Example tree
-#      1
-#     / \
-#    2   3
-root = TreeNode(1, TreeNode(2), TreeNode(3))
-
-# Initialize deque
-q = deque([root])
-
-while q:
-    node = q.popleft()  # Process the current node
-    print(node.value)
-    if node.left:
-        q.append(node.left)  # Add left child to the queue
-    if node.right:
-        q.append(node.right)  # Add right child to the queue
-root = TreeNode(1)
-root.right = TreeNode(2)
-root.right.left = TreeNode(3)
+        return res
