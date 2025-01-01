@@ -3,4 +3,6 @@ class TreeNode:
         self.val =val
         self.left = left
 
-class Solution
+class Solution:
+    def symmetric(self,root):
+        
