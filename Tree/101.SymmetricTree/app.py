@@ -12,3 +12,4 @@ class Solution:
             if not rootL or rootR:
                 return False
             return (rootL.val == rootR and hepler(rootL.left,rootR.right)and hepler(rootL.right,rootR.left))
+        return hepler(root.left,root.rigth)
