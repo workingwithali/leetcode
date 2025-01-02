@@ -6,5 +6,11 @@ class TreeNode:
         
 class Solution:
     def sum(self,root):
-        def dfs()
+        def dfs(root,sum):
+            if not root:
+                return 0
+            num = num*10+root.val
+            if not root.left and not root.right:
+                return sum
+            return (dfs(root.left,sum)+dfs(root.right,sum))
         return dfs(root,0)
