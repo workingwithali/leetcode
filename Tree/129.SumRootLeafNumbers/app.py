@@ -6,4 +6,5 @@ class TreeNode:
         
 class Solution:
     def sum(self,root):
-        
+        def dfs()
+        return dfs(root,0)
