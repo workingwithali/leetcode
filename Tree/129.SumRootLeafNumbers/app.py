@@ -4,3 +4,6 @@ class TreeNode:
         self.right = right
         self.left = left
         
+class Solution:
+    def sum(self,root):
+        
