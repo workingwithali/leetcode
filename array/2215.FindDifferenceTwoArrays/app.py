@@ -18,5 +18,7 @@ class Solution:
             if fount:
                 res[1].add(num2)
         return [list(res[0]),list(res(1))]
+    
+solution = Solution
 
             
