@@ -7,4 +7,7 @@ class Solution:
                 if num1 == num2:
                     found = False
                     break
+            if fount:
+                res[0].add(num1)
+                
             
