@@ -20,5 +20,7 @@ class Solution:
         return [list(res[0]),list(res(1))]
     
 solution = Solution
+nums1 = [1,2,3]
+nums2 = [2,4,6]
 
             
