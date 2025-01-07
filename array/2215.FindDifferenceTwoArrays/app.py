@@ -9,5 +9,14 @@ class Solution:
                     break
             if fount:
                 res[0].add(num1)
-                
+        for num2 in nums2:
+            fount = True
+            for num1 in nums1:
+                if num1 == num2:
+                    found = False
+                    break
+            if fount:
+                res[0].add(num2)
+        res r
+
             
