@@ -22,5 +22,6 @@ class Solution:
 solution = Solution
 nums1 = [1,2,3]
 nums2 = [2,4,6]
+result = solution.array(nums1,nums2)
 
             
