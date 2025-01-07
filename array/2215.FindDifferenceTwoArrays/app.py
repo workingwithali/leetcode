@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def array(self,nums1,nums2):
         res = [set(),set()]
@@ -19,7 +21,7 @@ class Solution:
                 res[1].add(num2)
         return [list(res[0]),list(res(1))]
     
-solution = Solution
+solution = Solution()
 nums1 = [1,2,3]
 nums2 = [2,4,6]
 result = solution.array(nums1,nums2)
