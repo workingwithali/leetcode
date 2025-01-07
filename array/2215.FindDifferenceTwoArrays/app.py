@@ -1,3 +1,4 @@
 class Solution:
-    def array(self,num1,num2):
-        
+    def array(self,nums1,nums2):
+        res = [set(),set()]
+        for num1
