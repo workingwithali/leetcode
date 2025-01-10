@@ -8,3 +8,7 @@ class Solution:
         return stornes[0] if stornes else 0
 
             
+solution = Solution()
+a = [4,3,9,8,7,6]
+r = solution.stornes(a)
+print(r)
