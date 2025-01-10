@@ -5,3 +5,5 @@ class Solution:
             cur = stornes.pop()-stornes.pop()
             if cur:
                 stornes.append(cur)
+
+            
