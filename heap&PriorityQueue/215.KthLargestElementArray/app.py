@@ -7,3 +7,4 @@ solution =solution()
 nums = [3,2,1,5,6,4]
 k = 2
 r = solution.largest(nums,k)
+print(r)
