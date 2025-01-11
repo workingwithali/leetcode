@@ -16,5 +16,6 @@ class solution:
 solution = solution()
 points = [[1,3],[-2,2]]
 k = 1
+r = solution.closepoint(points,k)
 print(r)
 
