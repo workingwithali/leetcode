@@ -12,5 +12,9 @@ class solution:
             res.append([x,y])
             k -=1
         return res
-
+    
+solution = solution()
+points = [[1,3],[-2,2]]
+k = 1
+print(r)
 
