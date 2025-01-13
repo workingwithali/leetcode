@@ -1,5 +1,5 @@
 # leetcode
-Solutions to LeetCode questions using easy and efficient methods. This repository contains clear and concise explanations for each problem
+Solutions to LeetCode questions using easy and efficient methods. This repository contains clear and concise explanations for each problem.
 # LeetCode Solutions
 
 Welcome to the LeetCode Solutions repository! This repository contains solutions to various LeetCode problems using easy and efficient methods. Each solution is provided with clear and concise explanations to help you understand the approach and logic behind it.
