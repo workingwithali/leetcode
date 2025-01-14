@@ -15,4 +15,5 @@ class Solution:
 sol = Solution()
 arr = [4,3,1,1,3,3,2]
 k = 3
-r 
+r = sol.freq(arr , k)
+
