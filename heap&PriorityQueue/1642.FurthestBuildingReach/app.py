@@ -8,4 +8,9 @@ class solution:
                 continue
             bricks -= diff
             heapq.heappush(heap,-diff)
-            if bricks 
+            if bricks < 0:
+                if ladders == 0:
+                    return i
+                ladders -= 1
+                bricks += -heapq.heappop(heap)
+        return len(heap)-1
