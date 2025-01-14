@@ -19,3 +19,4 @@ heights = [4,2,7,6,9,14,12]
 bricks = 5
 ladders = 1
 r = sol.build(heights,bricks,ladders)
+print(r)
