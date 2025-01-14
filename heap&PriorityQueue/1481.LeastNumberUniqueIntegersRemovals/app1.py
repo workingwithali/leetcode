@@ -12,3 +12,7 @@ class Solution:
                 k -= f
                 res -= 1
         return res
+sol = Solution()
+arr = [4,3,1,1,3,3,2]
+k = 3
+r 
