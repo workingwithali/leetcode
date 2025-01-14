@@ -13,4 +13,9 @@ class solution:
                     return i
                 ladders -= 1
                 bricks += -heapq.heappop(heap)
-        return len(heap)-1
+        return len(heights)-1
+sol = solution()
+heights = [4,2,7,6,9,14,12]
+bricks = 5
+ladders = 1
+r = sol.build(heights,bricks,ladders)
