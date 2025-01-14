@@ -7,4 +7,4 @@ class Solution:
         heapq.heapify(heap)
         res = len(heap)
 
-        
+        return res
