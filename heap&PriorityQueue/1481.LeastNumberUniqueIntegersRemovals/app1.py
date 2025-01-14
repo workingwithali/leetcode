@@ -11,6 +11,4 @@ class Solution:
             if k >= f:
                 k -= f
                 res -= 1
-
-
         return res
