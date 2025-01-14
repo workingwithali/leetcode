@@ -8,7 +8,9 @@ class Solution:
         res = len(heap)
         while k > 0 and heap:
             f = heapq.heappop(heap)
-            
+            if k >= f:
+                k -= f
+                res -= 1
 
 
         return res
