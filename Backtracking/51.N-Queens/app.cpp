@@ -10,7 +10,10 @@ class Solution{
             }
             for (int j=0;j<n;j++){
                 if(issafe(board,row,j,ans)){
-                    board[row][j] = 'Q'
+                    board[row][j] = 'Q';
+                    queen(board,row+1,n,ans);
+                    board[row][j] = '.';
+
                 }
             }
         }
