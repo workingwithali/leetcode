@@ -3,6 +3,9 @@
 using namespace std;
 class Solution{
     public:
+        bool issafe(vector<int> &board,int row,int col, vector<vector<int>> &ans){
+            
+        }
         void queen(vector<int> &board,int row,int n, vector<vector<int>> &ans){
             if (row== n){
                 ans.push_back(board);
