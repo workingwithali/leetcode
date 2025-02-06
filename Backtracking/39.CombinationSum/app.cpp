@@ -30,3 +30,9 @@ class Solution{
             return ans;
         }
 }
+int main(){
+    Solution s;
+    s.sum();
+    
+    return 0;
+}
