@@ -15,7 +15,11 @@ class Solution{
         }
         for(int i = 0; i< s.size(); i++){
             sting part = s.substr(0,i+1);
-            
+            if (ispalin(part)){
+                partitions.push_back(part);
+                getpalin(s.substr(i+1),partitions,ans);
+                partitions.pop_back();
+            }
         }
     }
         vector<vector<string>> palindorme(string s)
