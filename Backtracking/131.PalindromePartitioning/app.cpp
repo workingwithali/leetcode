@@ -1,35 +1,60 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
-class Solution{
-    public:
-    bool ispalin(stirng s){
+
+class Solution
+{
+public:
+    bool ispalin(string s)
+    {
         string s2 = s;
-        reverse(s2.begin(),s2.end());
+        reverse(s2.begin(), s2.end());
         return s2 == s;
     }
-    void getpalin(string s, ector<string> &partitions, vector < vector<string> &ans){
-        if(s.size()==0){
-            ans.push_back(partitions)
+
+    void getpalin(string s, vector<string> &partitions, vector<vector<string>> &ans)
+    {
+        if (s.size() == 0)
+        {
+            ans.push_back(partitions);
             return;
         }
-        for(int i = 0; i< s.size(); i++){
-            sting part = s.substr(0,i+1);
-            if (ispalin(part)){
+        for (int i = 0; i < s.size(); i++)
+        {
+            string part = s.substr(0, i + 1);
+            if (ispalin(part))
+            {
                 partitions.push_back(part);
-                getpalin(s.substr(i+1),partitions,ans);
+                getpalin(s.substr(i + 1), partitions, ans);
                 partitions.pop_back();
             }
         }
     }
-        vector<vector<string>> palindorme(string s)
+
+    vector<vector<string>> palindrome(string s)
     {
         vector<string> partitions;
-        vector<vector<string> ans;
-        getpalin(s,partitions,ans);
+        vector<vector<string>> ans;
+        getpalin(s, partitions, ans);
         return ans;
     }
-}
-int main(){
+};
 
+int main()
+{
+    Solution s;
+    string input = "aab";
+    vector<vector<string>> result = s.palindrome(input);
+
+    for (const auto &partition : result)
+    {
+        for (const auto &str : partition)
+        {
+            cout << str << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
 }
