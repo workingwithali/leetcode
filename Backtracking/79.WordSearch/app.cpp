@@ -33,6 +33,6 @@ int main(){
     Solution s;
     board = [ [ "A", "B", "C", "E" ], [ "S", "F", "C", "S" ], [ "A", "D", "E", "E" ] ];
     word = "ABCCED";
-    cout<< s.exit();
+    cout<< s.exit(board, word);
     return 0;
 }
