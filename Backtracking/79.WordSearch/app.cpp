@@ -19,6 +19,13 @@ class Solution{
     bool exit(vector<vector<string>>board, stirng word){
         row = board.size();
         col = board[0].size();
-        for(int r = 0 ; )
+        for(int r = 0 ;r<row; r++ ){
+            for (int c = 0; c<col; c++){
+                if( helper(board, word, r, c, 0)){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
