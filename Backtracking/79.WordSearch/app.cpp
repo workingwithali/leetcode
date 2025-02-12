@@ -29,3 +29,10 @@ class Solution{
         return false;
     }
 }
+int main(){
+    Solution s;
+    board = [ [ "A", "B", "C", "E" ], [ "S", "F", "C", "S" ], [ "A", "D", "E", "E" ] ];
+    word = "ABCCED";
+    cout<< s.exit();
+    return 0;
+}
