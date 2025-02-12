@@ -4,7 +4,7 @@ using namespace std;
 class Solution{
     public:
     int row col;
-    boot helper(vector<vector<int>> board, string word, int r ,int c , int i){
+    boot helper(vector<vector<string>> board, string word, int r ,int c , int i){
         if (i== word.size()){
             return true;
         }
@@ -15,5 +15,10 @@ class Solution{
         bool res = helper(board, word, r - 1, c, i + 1) || helper(board, word, r + 1, c, i + 1) || helper(board, word, r , c-1, i + 1) || helper(board, word, r , c+1, i + 1) ;
         board[r][c] = word[i];
         return res;
+    }
+    bool exit(vector<vector<string>>board, stirng word){
+        row = board.size();
+        col = board[0].size();
+        for(int r = 0 ; )
     }
 }
