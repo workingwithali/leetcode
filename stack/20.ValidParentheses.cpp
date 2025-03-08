@@ -3,7 +3,7 @@
 using namespace std;
 class Solution{
 	public:
-		bool vaild(stirng str){
+		bool vaild(string str){
 			stack<char> s;
 			for(int i = 0; i<str.size();i++){
 				if(str[i]=='('||str[i]=='['||str[i]=='{'){
@@ -27,6 +27,9 @@ class Solution{
 
 
 int main(){
-	
+	string st = "()[]{";
+	Solution s;
+	bool a = s.vaild(st);
+	cout<<a;
 	return 0;
 }
